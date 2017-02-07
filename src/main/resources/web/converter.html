@@ -35,14 +35,6 @@
 			  hideTable();
 		  }
 		}
-
-		function processPayload() {
-		  if (payload.length > 120) {
-			populatePage(payload);
-		  } else {
-			hideTable();
-		  }
-		}
 		
 		function addRow(conversion, i) {
 			var r=document.getElementById('ConversionTable').insertRow(i);
